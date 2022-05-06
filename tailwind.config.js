@@ -30,7 +30,7 @@ module.exports = {
             transform: "translate(0px, 0px) scale(1)",
           },
           "100%": {
-            transform: "translate(0px, -250px) scale(1)",
+            transform: "translate(0px, -25px) scale(1)",
           },
 
         },
