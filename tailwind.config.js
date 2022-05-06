@@ -8,7 +8,7 @@ module.exports = {
     extend: {
       animation: {
         blob: "blob 7s infinite",
-        up: "up 3s forwards"
+        up: "up 6s infinite"
       },
       keyframes: {
         blob: {
@@ -29,8 +29,11 @@ module.exports = {
           "0%": {
             transform: "translate(0px, 0px) scale(1)",
           },
-          "100%": {
+          "50%": {
             transform: "translate(0px, -25px) scale(1)",
+          },
+          "10%": {
+            transform: "translate(0px, 0px) scale(1)",
           },
 
         },
